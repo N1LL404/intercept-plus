@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Fetch Extension",
+    "version": "1.0",
+    "description": "Logs network requests with cURL generation and response capturing.",
+    "devtools_page": "devtools.html",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting",
+        "clipboardWrite"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
